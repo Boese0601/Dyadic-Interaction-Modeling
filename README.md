@@ -25,6 +25,7 @@
      </br>
     <table align="center">
         <img src="./assets/demo1.gif">
+        <img src="./assets/demo2.gif">
     </table>
 </p>
 
