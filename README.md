@@ -6,7 +6,7 @@
     ·  
     <a href="https://boese0601.github.io/"><strong>Di Chang</strong></a><sup>*</sup>
     ·
-    <a href="https://scholar.google.com/citations?hl=en&user=5w0f0OQAAAAJ/"><strong>Maksim Siniukov</strong></a>
+    <a href="https://scholar.google.com/citations?user=5w0f0OQAAAAJ&hl=ru"><strong>Maksim Siniukov</strong></a>
     ·
     <a href="https://www.ihp-lab.org/"><strong>Mohammad Soleymani</strong></a>
     <br>
