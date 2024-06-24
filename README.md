@@ -18,7 +18,7 @@
         <a href="https://arxiv.org/abs/2403.09069">
         <img src='https://img.shields.io/badge/arXiv-DIM-green' alt='Paper PDF'>
         </a>
-        <a href='https://github.com/Boese0601/Dyadic-Interaction-Modeling'>
+        <a href='https://boese0601.github.io/dim/'>
         <img src='https://img.shields.io/badge/Project_Page-DIM-blue' alt='Project Page'></a>
         <!-- <a href='https://youtu.be/VPJe6TyrT-Y'>
         <img src='https://img.shields.io/badge/YouTube-MagicPose-rgb(255, 0, 0)' alt='Youtube'></a> -->
