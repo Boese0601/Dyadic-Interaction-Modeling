@@ -54,6 +54,6 @@ If you find our work useful, please consider citing:
 
 ## Acknowledgement
 
-We appreciate the support from [Haiwen Feng](https://scholar.google.com/citations?user=g5co-iIAAAAJ&hl=en), [Quankai Gao](https://zerg-overmind.github.io/) and [Hongyi Xu]([https://zerg-overmind.github.io/](https://hongyixu37.github.io/homepage/)) for their suggestions and discussions.
+We appreciate the support from [Haiwen Feng](https://scholar.google.com/citations?user=g5co-iIAAAAJ&hl=en), [Quankai Gao](https://zerg-overmind.github.io/) and [Hongyi Xu](https://hongyixu37.github.io/homepage/)) for their suggestions and discussions.
 
 
