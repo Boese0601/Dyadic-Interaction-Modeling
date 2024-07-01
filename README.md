@@ -54,6 +54,6 @@ If you find our work useful, please consider citing:
 
 ## Acknowledgement
 
-We appreciate the support from Haiwen Feng[https://scholar.google.com/citations?user=g5co-iIAAAAJ&hl=en] for his guidance of EMOCA and DECA.
+We appreciate the support from [Haiwen Feng](https://scholar.google.com/citations?user=g5co-iIAAAAJ&hl=en) for his guidance of EMOCA and DECA.
 
 
