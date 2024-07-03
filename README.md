@@ -31,9 +31,70 @@
 
 *We propose Dyadic Interaction Modeling, a pre-training strategy that jointly models speakers’ and listeners’ motions and learns representations that capture the dyadic context. We then utilize the pre-trained weights and feed multimodal inputs from the speaker into DIM-Listener. DIM-Listener is capable of generating photorealistic videos for the listener's motion.*
 
+## Getting Started 
 
+Clone repo:
+
+```
+git clone https://github.com/Boese0601/Dyadic-Interaction-Modeling.git
+cd Dyadic-Interaction-Modeling
+```
+
+The code is tested with Python == 3.12.3, PyTorch == 2.3.1 and CUDA == 12.5 on 2 x NVIDIA L40S. We recommend you to use [anaconda](https://www.anaconda.com/) to manage dependencies. You may need to change the torch and cuda version in the `requirements.txt` according to your computer.
+
+```
+conda create -n dim python=3.12.3
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 cudatoolkit=12.1 -c pytorch -c conda-forge
+conda activate dim
+pip install -r requirements.txt
+```
+
+Download the [CANDOR Corpus](https://convokit.cornell.edu/documentation/candor.html) dataset from the official website here. Extract it and put it under the folder 'data/candor_processed/'.
+
+Download the [LM_Listener](https://github.com/sanjayss34/lm-listener?tab=readme-ov-file) dataset from the official website here. Extract it and put it under the folder 'data/lm_listener_data/'.
+
+Download the [BIWI](https://data.vision.ee.ethz.ch/cvl/datasets/b3dac2.en.html) dataset from the official website here. Extract it and put it under the folder 'data/BIWI_data/'.
+
+
+Download the [ViCo](https://project.mhzhou.com/vico/) dataset from the official website here. Extract it and put it under the folder 'data/vico_processed/', put 'RLD_data.csv' as 'data/RLD_data.csv'. Use the following script to preprocess ViCo dataset.
+```
+python vico_preprocessing.py
+```
+
+## Model Training 
+1. Launch the following line to train VQ-VAE.
+```
+python train_vq.py
+```
+2. Launch the following line to pretrain the model on CANDOR dataset.
+```
+python seq2seq_pretrain.py
+```
+3. Launch the following line to train the model on ViCo dataset.
+```
+python train_s2s.py
+```
+4. Launch the following line to train the converter model on BIWI.
+```
+python train_converter.py
+```
+5. (Optional) Launch the following line to finetune the model on a specific datset.
+```
+python finetune_s2s_pretrain.py
+```
+
+## Model Evaluation 
+
+Launch the following lines to evaluate the model on each of the datasets.
+```
+python test_s2s_pretrain.py
+python test_biwi.py
+python test_l2l.py
+python test_s2s.py
+```
 
 ## News
+* **[2024.7.04]** Instructions on training and inference are released.
 * **[2024.6.23]** Code is fully released. Instructions on training and inference coming soon.
 * **[2024.6.23]** Release Dyadic Interaction Modeling project page.
 * **[2024.3.27]** Release Dyadic Interaction Modeling paper.
