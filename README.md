@@ -34,7 +34,7 @@
 
 
 ## News
-* **[2024.6.23]** Code will be released soon.
+* **[2024.6.23]** Code is fully released. Instructions on training and inference coming soon.
 * **[2024.6.23]** Release Dyadic Interaction Modeling project page.
 * **[2024.3.27]** Release Dyadic Interaction Modeling paper.
 
