@@ -53,6 +53,7 @@ If you find our work useful, please consider citing:
 ```
 
 ## Acknowledgement
+This work is supported by the National Science Foundation under Grant No. 2211550. The work was also sponsored by the Army Research Office and was accomplished under Cooperative Agreement Number W911NF-20-2-0053. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the Army Research Office or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation herein.
 
 We appreciate the support from [Haiwen Feng](https://scholar.google.com/citations?user=g5co-iIAAAAJ&hl=en), [Quankai Gao](https://zerg-overmind.github.io/) and [Hongyi Xu](https://hongyixu37.github.io/homepage/) for their suggestions and discussions.
 
