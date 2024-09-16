@@ -68,7 +68,7 @@ python train_vq.py
 ```
 2. Launch the following line to pretrain the model on CANDOR dataset.
 ```
-python seq2seq_pretrain.py
+python train_s2s_pretrain.py
 ```
 3. Launch the following line to train the model on ViCo dataset.
 ```
