@@ -62,21 +62,14 @@ python vico_preprocessing.py
 ```
 
 ## Model Training 
-1. Launch the following line to train VQ-VAE.
+1. Launch the following lines to train VQ-VAE for speaker and listener.
 ```
-python train_vq.py
+python train_vq.py --config config.yaml
+python train_vq.py --config config_speaker.yaml
 ```
 2. Launch the following line to pretrain the model on CANDOR dataset.
 ```
 python train_s2s_pretrain.py
-```
-3. Launch the following line to train the model on ViCo dataset.
-```
-python train_s2s.py
-```
-4. Launch the following line to train the converter model on BIWI.
-```
-python train_converter.py
 ```
 5. (Optional) Launch the following line to finetune the model on a specific datset.
 ```
