@@ -86,7 +86,12 @@ python test_l2l.py
 python test_s2s.py
 ```
 
+## Renderer for Realistic Video Generation from EMOCA
+
+Please refer to [here](https://github.com/Boese0601/Dyadic-Interaction-Modeling/tree/main/code/Pirender) for instructions on PIRenderer.
+
 ## News
+* **[2024.10.01]** Code and Instructions for PIRenderer are released.
 * **[2024.7.04]** Instructions on training and inference are released.
 * **[2024.6.23]** Code is fully released. Instructions on training and inference coming soon.
 * **[2024.6.23]** Release Dyadic Interaction Modeling project page.
